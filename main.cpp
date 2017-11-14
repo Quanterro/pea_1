@@ -7,6 +7,7 @@ void main()
 	if(lol->load()==false)
 		cout << "Failed to open the file" << endl;
 	lol->show_matrix();
-	lol->route(0);
+	cout << "Shortes path found: " <<lol->route(3) << endl;
+	lol->show_route();
 	cin.get();
 }
